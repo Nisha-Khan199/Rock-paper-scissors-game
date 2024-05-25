@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(20, 19, 20);
+}
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+
+}
+.choices :hover{
+    opacity: 0.8;
+    cursor: pointer;
+ 
+   
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    
+    margin-top: 60px;
+    
+   margin-left: 40px;
+    
+}
+h1{
+    height: 60px;
+    background-color: rgb(56, 56,105) ;
+    width: 100vw;
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.score{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 4rem;
+ 
+   
+}
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+   
+}
+
+#mesg{
+    color: white;
+    
+padding: 0.8rem;
+background-color: rgb(56, 56,105) ;
+
+    font-size: 25px;
+  
+    border-radius: 4px;
+   
+    
+}
+#userscore, #compscore{
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-left: 10px;
+   
+  
+
+}
